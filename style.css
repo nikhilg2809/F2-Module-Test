@@ -89,13 +89,3 @@ td{
 input:focus{
     outline-width: 0;
 }
-
-
-@media (max-width: 590px) {
-    .ip-container{
-        flex-direction: column;
-    }
-    .input{
-        width:50%;
-    }
-  }

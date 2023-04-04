@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    padding: 10px;
+    background: #1E1E1E;
+    font-family: 'Inter';
+}
+header{
+    color:white;
+    margin-bottom: 30px;
+}
+.input{
+    color:white;
+    padding:10px;
+    border: 1px ridge white;
+    background: #1E1E1E;
+    width: 12%;
+    flex-basis: 30%;
+    margin-bottom: 45px;
+    margin-right: 15px;
+}
+.ibtn{
+    width: 32%;
+    height: 10%;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+.ip-container{
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    flex-wrap: wrap;
+}
+.main-container{
+    padding:15px;
+}
+.searchbar{
+    background: #1E1E1E;
+    color:rgb(15, 15, 15);
+    border: 1px ridge white;
+    padding: 10px;
+    width:100%;
+    box-sizing: border-box;
+    margin: 30px 0 30px 0;
+    float: right;
+}
+table{
+    color:white;
+    width: 100%;
+    border:1px ridge white;
+    box-sizing: border-box;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 50px 0 30px 0;
+    padding: 10px;
+}
+th{
+    border:1px ridge white ;
+    margin: 30px 0 30px 0;
+    padding:10px;
+}
+td{
+    border-right:1px ridge white;
+    margin: 30px 0 30px 0;
+    padding:10p;
+}
+.errormsg{
+    color:red;
+    display: inline-block;
+    margin:0;
+}
+.options{
+    display:none;
+}
+.searchbar input{
+    background: #1E1E1E;
+    border:0;
+    color:white;
+    width:90%;
+    overflow: visible;
+}
+.searchbar button{
+    float:right;
+    width:auto;
+}
+input:focus{
+    outline-width: 0;
+}
+
+
+@media (max-width: 590px) {
+    .ip-container{
+        flex-direction: column;
+    }
+    .input{
+        width:50%;
+    }
+  }

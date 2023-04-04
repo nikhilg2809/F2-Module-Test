@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>F2 Module Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="main-container">
+        <header><h1>Student Management System</h1></header>
+        <div class="ip-container">
+            <input class = "input" id = "name" type="text" placeholder="Name" required>
+            <input class = "input" id = "email" type="email" placeholder="Email" required>
+            <input class = "input" id = "gpa" type="number" placeholder="GPA" required>
+            <input class = "input" id = "age" type="number" placeholder="Age" required>
+            <input class = "input" id = "degree" type="text" placeholder="Degree" required>
+        </div>
+        <div id="errormsg">All Fields are Mandatory*</div>
+        <button class="ibtn" id= "btn" type="submit">Add Student</button>
+        <div class="searchbar">
+            <input type="text" id="searchbar" placeholder="Search By Name,email or degree">
+            <span><button type = "submit" class="searchkey" id="searchkey"><span class="material-symbols-outlined">
+                search
+                </span></button></span>
+        </div>    
+        
+        <div class="table-container">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>GPA</th>
+                        <th>Age</th>
+                        <th>Degree</th>
+                        <th class="options"></th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
